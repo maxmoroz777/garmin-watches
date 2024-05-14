@@ -1,5 +1,5 @@
 body {
-    font-family: "Inter Tight", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 ul,
@@ -27,11 +27,6 @@ a {
     -webkit-tap-highlight-color: transparent !important;
 }
 
-.container {
-    padding: 0 15;
-    margin: 0 auto;
-    max-width: 375px;
-}
 
 svg {
     display: block;
