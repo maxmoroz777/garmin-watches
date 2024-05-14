@@ -1,0 +1,33 @@
+<header class="header overlay-header">
+  <nav class="nav">
+    <div class="header-logo">
+      <a href="#" class="header-svg-logo">
+        <svg class="svg-logo-grill-header">
+          <use href="./img/icons.svg#icon-grill-mob"></use>
+        </svg>
+        <svg class="svg-logo-text-header">
+          <use href="./img/icons.svg#icon-green-harvest-mob"></use>
+        </svg>
+      </a>
+      <a href="#" onclick="addClass()">
+        <svg class="icon-burger">
+          <use href="./img/icons.svg#icon-burger"></use>
+        </svg>
+      </a>
+    </div>
+    <div class="header-nav-desktop">
+      <div class="header-menu">
+        <a href=" #" class="header-menu-link">How it Works</a>
+        <a href="#" class="header-menu-link">Vegetables</a>
+        <a href="#" class="header-menu-link">Reviews</a>
+      </div>
+      <button class="header-shop-now" type="button">shop now</button>
+    </div>
+  </nav>
+  <script>
+    function addClass() {
+      let v = document.getElementById("order-menu");
+      v.classList.add("is-open");
+    }
+  </script>
+</header>
