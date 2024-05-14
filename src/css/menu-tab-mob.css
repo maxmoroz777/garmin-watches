@@ -10,7 +10,7 @@
     pointer-events: none;
     transition: opacity 0ms linear,
         visibiliti 0ms linear;
-    background-image: url("./img/c-w-mob.jpg");
+    background-image: url("../img/c-w-mob.jpg");
     background-size: cover;
 }
 
@@ -18,7 +18,7 @@
 
 @media only screen and (min-resolution: 192dpi) and (max-width: 767px) {
     .menu-tab-mob {
-        background-image: url("./img/c-w-mob@2x.jpg");
+        background-image: url("../img/c-w-mob@2x.jpg");
     }
 }
 
@@ -68,6 +68,11 @@
     margin: auto;
 }
 
+.menu-list-item:hover,
+.menu-list-item:focus {
+    color: rgb(12, 241, 241);
+}
+
 .social-networks {
     display: flex;
     gap: 10px;
@@ -80,8 +85,7 @@
 .social-svg {
     border: 1px solid rgba(251, 251, 251, 0.1);
     border-radius: 10px;
-    width: 18px;
-    height: 18px;
+    width: 34px;
+    height: 34px;
     padding: 8px;
-
 }
